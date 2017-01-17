@@ -26,8 +26,6 @@ private:
 template<typename T>
 Array<T>::Array() :m_array(nullptr), m_length(0), m_start_index(0)
 {
-	m_array = new T[m_length]; //create a new m_array
-	m_array = nullptr; //set m_array to nullptr
 }
 
 template<typename T>
